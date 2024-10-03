@@ -61,8 +61,8 @@ url = 'https://nid.naver.com/nidlogin.login'
 browser.get(url)
 
 # 네이버 아이디와 비밀번호 입력
-id = 'mrpn'
-pw = 'Sippal0561'
+id = 'NaverID'
+pw = 'NaverPW'
 
 browser.execute_script(f"document.getElementsByName('id')[0].value='{id}'")
 browser.execute_script(f"document.getElementsByName('pw')[0].value='{pw}'")
